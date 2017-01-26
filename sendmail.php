@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @author Justin
- * @copyright 2016
- */
-
 include "../../config/database.php";
 foreach($_POST as $key=>$val){$$key = $val;}
 
